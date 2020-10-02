@@ -12,8 +12,10 @@ public class Person {
 
   }
 
-  //TODO: Add javadoc comment
-  public String person(String someone) {
+  /**
+   * this is a method
+   */
+  public final String person(final String someone) {
     return String.format("Hello1, %s!", someone);
   }
 }
