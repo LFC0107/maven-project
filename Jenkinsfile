@@ -16,5 +16,9 @@ pipeline {
                 }
             }
         }
+        stage('Deploy to staging'){
+            build job:'depoly-to-staging'
+        }
     }
+    
 }
